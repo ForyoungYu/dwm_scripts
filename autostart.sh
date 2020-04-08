@@ -1,8 +1,10 @@
 #!/bin/bash
 
-bash ~/.scripts/wallpaper.sh &
-#picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-dixde -f -D 5 -c -b
+/bin/bash ~/.scripts/dwm-status.sh &
+/bin/bash ~/.scripts/wallpaper.sh &
 picom -b
-bash ~/.scripts/dwm-status.sh
+xfce4-power-manager &
+xfce4-volumed-pulse &
+/bin/bash ~/.scripts/autostart_wait.sh &
 	
 	

@@ -2,7 +2,7 @@
 
 while true
 do
-	feh --randomize --bg-fill ~/.wallpaper/*
+	feh --randomize --bg-fill ~/图片/wallpaper/*
 	sleep 10m
 done
 
